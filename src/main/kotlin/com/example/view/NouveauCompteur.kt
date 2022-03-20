@@ -129,11 +129,11 @@ class NouveauCompteur : Fragment("Nouveau compteur") {
                         compteurActif.add(
                             Compteur(
                                 compteurModel.nom.value,
-                                compteurModel.compteur.value,
+                                compteurModel.compteur.value.toInt(),
                                 isRepetitif = false,
                                 compteurRepetitif,
                                 compteurModel.alerte.value,
-                                compteurModel.compteAlerte.value,
+                                compteurModel.compteAlerte.value.toInt(),
                                 compteurModel.nomAlerte.value)
 
 

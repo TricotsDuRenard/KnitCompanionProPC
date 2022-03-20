@@ -83,3 +83,4 @@ class CompteurModel : ItemViewModel<Compteur>() {
     var compteAlerte = bind(Compteur::compteAlerte) as IntegerProperty
     var nomAlerte = bind(Compteur::nomAlerte)
 }
+
